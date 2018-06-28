@@ -1,0 +1,29 @@
+I, [2018-06-28T10:07:07.268235 #31290]  INFO -- Kitchen: -----> Starting Kitchen (v1.21.2)
+E, [2018-06-28T10:07:07.268861 #31290] ERROR -- Kitchen: ------Exception-------
+E, [2018-06-28T10:07:07.268895 #31290] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-06-28T10:07:07.268911 #31290] ERROR -- Kitchen: Message: Kitchen YAML file /opt/chefdk/chef-repo/cookbooks/apache/test/integration/default/.kitchen.yml does not exist.
+E, [2018-06-28T10:07:07.268933 #31290] ERROR -- Kitchen: ----------------------
+E, [2018-06-28T10:07:07.268947 #31290] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-06-28T10:07:07.268959 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-06-28T10:07:07.268972 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:152:in `data'
+E, [2018-06-28T10:07:07.268997 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:131:in `suites'
+E, [2018-06-28T10:07:07.269014 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-06-28T10:07:07.269026 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-06-28T10:07:07.269037 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:117:in `instances'
+E, [2018-06-28T10:07:07.269049 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-06-28T10:07:07.269061 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-06-28T10:07:07.269072 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/command/test.rb:40:in `block in call'
+E, [2018-06-28T10:07:07.269084 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-06-28T10:07:07.269100 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/command/test.rb:38:in `call'
+E, [2018-06-28T10:07:07.269164 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-06-28T10:07:07.269180 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/cli.rb:245:in `test'
+E, [2018-06-28T10:07:07.269192 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+E, [2018-06-28T10:07:07.269204 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-06-28T10:07:07.269216 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+E, [2018-06-28T10:07:07.269228 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+E, [2018-06-28T10:07:07.269251 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-06-28T10:07:07.269266 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-06-28T10:07:07.269278 #31290] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/bin/kitchen:13:in `<top (required)>'
+E, [2018-06-28T10:07:07.269290 #31290] ERROR -- Kitchen: /usr/bin/kitchen:270:in `load'
+E, [2018-06-28T10:07:07.269301 #31290] ERROR -- Kitchen: /usr/bin/kitchen:270:in `<main>'
+E, [2018-06-28T10:07:07.269312 #31290] ERROR -- Kitchen: ----End Backtrace-----

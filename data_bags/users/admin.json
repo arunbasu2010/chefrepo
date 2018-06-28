@@ -1,0 +1,8 @@
+{
+        "id":"admin",
+        "commnet":"admin user",
+        "uid":"1001",
+        "home":"/home/admin",
+        "shell":"/bin/sh",
+        "password":"$1$kjN.tCUP$4/Pk2HrY/WIUvkroQj3Bp1"
+}
